@@ -42,19 +42,18 @@ export default function Home() {
           fontWeight="extrabold"
           mb={3}
         >
-          Create Cosmos App
+          WiiVerify
         </Heading>
         <Heading
-          as="h1"
+          as="h3"
           fontWeight="bold"
           fontSize={{ base: '2xl', sm: '3xl', md: '4xl' }}
         >
-          <Text as="span">Welcome to&nbsp;</Text>
           <Text
             as="span"
             color={useColorModeValue('primary.500', 'primary.200')}
           >
-            CosmosKit + Next.js
+            A fully decentralized, crowdsourced security audit and bug bounty platform
           </Text>
         </Heading>
       </Box>
