@@ -10,7 +10,6 @@ import {
   VStack,
   useColorModeValue
 } from '@chakra-ui/core';
-import { NavLink } from './nav-link';
 import {
   Home,
   UserGroup,
@@ -25,14 +24,12 @@ import {
 } from '../icons';
 
 const SidebarLink = ({ href, children, icon }) => (
-  <NavLink href={href}>
     <Flex align="center">
       <Box as={icon} mr={3} w={6} />
       <Text fontSize="sm" fontWeight="medium">
         {children}
       </Text>
     </Flex>
-  </NavLink>
 );
 
 function PageLinks() {

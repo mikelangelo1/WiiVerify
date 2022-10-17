@@ -20,7 +20,7 @@ Router.events.on('routeChangeError', () => {
 
 export default function Nprogress() {
   return (
-    <style jsx global>
+    <style>
       {`
         /* Make clicks pass-through */
         #nprogress {
