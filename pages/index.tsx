@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react';
 import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs';
 import { Product, Dependency, WalletSection } from '../components';
-import { dependencies, products } from '../config';
+import {  products } from '../config';
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -70,11 +70,11 @@ export default function Home() {
           <Product key={product.title} {...product}></Product>
         ))}
       </Grid>
-      <Grid templateColumns={{ md: '1fr 1fr' }} gap={8} mb={20}>
+      {/* <Grid templateColumns={{ md: '1fr 1fr' }} gap={8} mb={20}>
         {dependencies.map((dependency) => (
           <Dependency key={dependency.title} {...dependency}></Dependency>
         ))}
-      </Grid>
+      </Grid> */}
       <Box mb={3}>
         <Divider />
       </Box>

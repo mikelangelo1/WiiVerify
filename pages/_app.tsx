@@ -13,6 +13,7 @@ function CreateCosmosApp({ Component, pageProps }: AppProps) {
     //   return getSigningCosmosClientOptions();
     // }
   };
+  
 
   return (
     <ChakraProvider theme={defaultTheme}>

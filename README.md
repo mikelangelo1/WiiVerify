@@ -32,14 +32,6 @@ A wallet connector for the Cosmos ⚛️
 
 * https://github.com/cosmology-tech/cosmos-kit
 
-### Telescope
-
-A "babel for the Cosmos", Telescope is a TypeScript Transpiler for Cosmos Protobufs. Telescope is used to generate libraries for Cosmos blockchains. Simply point to your protobuffer files and create developer-friendly Typescript libraries for teams to build on your blockchain.
-
-* https://github.com/osmosis-labs/telescope
-
-🎥 [Checkout the Telescope video playlist](https://www.youtube.com/watch?v=n82MsLe82mk&list=PL-lMkVv7GZwyQaK6bp6kMdOS5mzosxytC) to learn how to use `telescope`!
-
 ### CosmWasm TS Codegen
 
 The quickest and easiest way to interact with CosmWasm Contracts. @cosmwasm/ts-codegen converts your CosmWasm smart contracts into dev-friendly TypeScript classes so you can focus on shipping code.
